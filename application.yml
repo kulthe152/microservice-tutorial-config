@@ -1,10 +1,11 @@
-application:
-    name: Config-Default
-    
-eureka:
-  instance:
+spring:
+  application:
+    name: RATING-SERVICE
+
+  eureka:
+    instance:
       prefer-ip-address: true
-  client:
+    client:
       fetch-registry: true
       register-with-eureka: true
       service-url:
